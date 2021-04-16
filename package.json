@@ -1,6 +1,6 @@
 {
-  "name": "gulp-wxmlmin",
-  "version": "1.0.0",
+  "name": "lcy-wxmlmin",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
