@@ -1,6 +1,6 @@
 {
-  "name": "lcy-htmlmin",
-  "version": "1.0.0",
+  "name": "wxml-min",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
