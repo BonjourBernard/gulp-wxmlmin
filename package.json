@@ -1,10 +1,9 @@
 {
   "name": "wxml-min",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BonjourBernard/gulp-wxmlmin.git"
