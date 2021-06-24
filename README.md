@@ -14,6 +14,7 @@ var wxmlmin = require('gulp-wxml-min')
      collapseWhitespace: true,//压缩HTML
      collapseBooleanAttributes: true,//省略布尔属性的值 <input checked="true"/> ==> <input />
      removeEmptyAttributes: true,//删除所有空格作属性值 <input id="" /> ==> <input />
+     keepClosingSlash: true, // 单标签上保留斜线
 -->
 gulp.src(path.src)
 .pipe(wxmlmin({
