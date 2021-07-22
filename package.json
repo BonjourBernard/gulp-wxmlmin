@@ -1,47 +1,37 @@
 {
   "name": "gulp-wxml-min",
-  "version": "1.0.6",
-  "description": "",
+  "version": "1.0.8",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BonjourBernard/gulp-wxmlmin.git"
   },
-  "devDependencies": {
-    "amdefine": "1.0.1",
-    "chalk": "0.5.1",
-    "change-case": "2.3.1",
-    "clone-stats": "0.0.1",
-    "commander": "2.9.0",
-    "concat-stream": "1.5.2",
-    "core-util-is": "1.0.2",
-    "get-stdin": "4.0.1",
-    "graceful-readlink": "1.0.1",
-    "he": "1.0.0",
-    "inherits": "2.0.3",
-    "isarray": "0.0.1",
-    "lodash._escapehtmlchar": "2.4.1",
-    "lodash._escapestringchar": "2.4.1",
-    "lodash._isnative": "2.4.1",
-    "lodash._reunescapedhtml": "2.4.1",
-    "lodash._shimkeys": "2.4.1",
-    "lodash.defaults": "2.4.1",
-    "lodash.isobject": "2.4.1",
-    "lodash.values": "2.4.1",
-    "meow": "3.7.0",
-    "multipipe": "0.1.2",
-    "ncname": "1.0.0",
-    "relateurl": "0.2.7",
-    "string_decoder": "0.10.31",
-    "uglify-js": "2.6.4"
-  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BonjourBernard/gulp-wxmlmin/issues"
   },
-  "homepage": "https://github.com/BonjourBernard/gulp-wxmlmin#readme"
+  "homepage": "https://github.com/BonjourBernard/gulp-wxmlmin#readme",
+  "dependencies": {
+    "event-stream": "^3.0.20",
+    "gulp-util": "^2.2.20",
+    "html-minifier": "^1.1.1",
+    "htmllint": "^0.2.7"
+  },
+  "description": "Minify HTML with html-minifier.",
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.16.1"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "gulpplugin",
+    "wxml",
+    "wxml minifier",
+    "wxml minify",
+    "minify"
+  ]
 }
-
-
